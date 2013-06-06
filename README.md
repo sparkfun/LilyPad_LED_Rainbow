@@ -1,6 +1,6 @@
 LilyPad LED Rainbow Board
 ========================
-[![LilyPad LED Board](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/3/2/5/11325-02a.jpg)  
+[![LilyPad LED Board](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/3/2/5/11325-02a.jpg)  
 
 
 The LilyPad LED Rainbow Board is panel containing 5 strips of 7 LilyPad LED boards, one in each of 7 colors--red, green, blue, pink, purple, yellow, and white.
