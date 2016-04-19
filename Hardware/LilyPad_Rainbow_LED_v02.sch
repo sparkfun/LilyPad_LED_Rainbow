@@ -569,8 +569,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="180OHM1/10W1%(0603)" prefix="R" uservalue="yes">
-<description>RES-08788</description>
+<deviceset name="150OHM-1/10W-1%(0603)" prefix="R" uservalue="yes">
+<description>RES-11028</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -582,8 +582,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-08788" constant="no"/>
-<attribute name="VALUE" value="180" constant="no"/>
+<attribute name="PROD-ID" value="13326" constant="no"/>
+<attribute name="VALUE" value="150" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1092,31 +1092,31 @@ Standard 8.5x11 US Letter frame</description>
 <parts>
 <part name="ST1" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="ST2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST3" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-PINK" device="1206" value="PINK"/>
 <part name="ST4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST5" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="LILYPAD" value="RED"/>
 <part name="ST6" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST7" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="Yellow"/>
 <part name="ST8" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST9" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED-GREEN" device="LILYPAD" value="GREEN"/>
 <part name="ST10" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST11" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
 <part name="ST12" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST +"/>
 <part name="ST13" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="ST -"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="180OHM1/10W1%(0603)" device="" value="180"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 </parts>
