@@ -1013,6 +1013,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -1053,6 +1056,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -1074,6 +1080,18 @@ Standard 8.5x11 US Letter frame</description>
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1119,13 +1137,15 @@ Standard 8.5x11 US Letter frame</description>
 <part name="R7" library="SparkFun-Resistors" deviceset="150OHM-1/10W-1%(0603)" device="" value="150"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="121.92" y="106.68" size="3.81" layer="97" font="vector"></text>
-<text x="167.64" y="10.16" size="2.54" layer="94">Mary West </text>
+<text x="171.45" y="7.62" size="2.54" layer="94">Mary West </text>
 <text x="238.76" y="7.62" size="1.778" layer="94">v02</text>
+<text x="166.37" y="11.43" size="2.54" layer="94">Leah Buechley</text>
 </plain>
 <instances>
 <instance part="ST1" gate="G$1" x="96.52" y="149.86" rot="R180"/>
@@ -1158,6 +1178,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="D7" gate="G$1" x="111.76" y="73.66" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="149.86" y="7.62"/>
 </instances>
 <busses>
 </busses>
