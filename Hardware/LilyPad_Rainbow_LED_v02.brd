@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -277,7 +277,7 @@ Purple Silk</text>
 <wire x1="-0.7232" y1="-0.3256" x2="0.0268" y2="-1.0756" width="0.2032" layer="21" curve="-90"/>
 <wire x1="0.0268" y1="-1.0756" x2="0.8768" y2="-1.5756" width="0.2032" layer="21" curve="90"/>
 </package>
-<package name="PETAL-SMALL">
+<package name="PETAL-SMALL-2SIDE">
 <pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
 <polygon width="0.2032" layer="1">
 <vertex x="-2.4" y="0.6" curve="96.730733"/>
@@ -288,6 +288,16 @@ Purple Silk</text>
 <vertex x="-2.4" y="0.6" curve="96.730733"/>
 <vertex x="0" y="-2" curve="96.730733"/>
 <vertex x="2.4" y="0.6" curve="-106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="30">
+<vertex x="2.4" y="0.6" curve="-96.730733"/>
+<vertex x="0" y="-2" curve="-96.730733"/>
+<vertex x="-2.4" y="0.6" curve="106.260205"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="2.4" y="0.6" curve="-96.730733"/>
+<vertex x="0" y="-2" curve="-96.730733"/>
+<vertex x="-2.4" y="0.6" curve="106.260205"/>
 </polygon>
 </package>
 </packages>
@@ -506,8 +516,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="14.879" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="14.498" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+28" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="13.97" y="1.397"/>
-<element name="LED-28" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="13.97" y="10.033" rot="R180"/>
+<element name="LED+28" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="13.97" y="1.397"/>
+<element name="LED-28" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="13.97" y="10.033" rot="R180"/>
 <element name="LED28" library="SparkFun-LED" package="LED-1206" value="Red" x="13.99" y="5.003" smashed="yes">
 <attribute name="NAME" x="11.82" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="13.217" y="3.66" size="0.4064" layer="27"/>
@@ -517,8 +527,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="37.231" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="36.85" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+29" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="36.322" y="1.397"/>
-<element name="LED-29" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="36.322" y="10.033" rot="R180"/>
+<element name="LED+29" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="36.322" y="1.397"/>
+<element name="LED-29" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="36.322" y="10.033" rot="R180"/>
 <element name="LED29" library="SparkFun-LED" package="LED-1206" value="White" x="36.342" y="5.003" smashed="yes">
 <attribute name="NAME" x="34.172" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="35.569" y="3.66" size="0.4064" layer="27"/>
@@ -528,8 +538,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="31.643" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="31.262" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+30" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="30.734" y="1.397"/>
-<element name="LED-30" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="30.734" y="10.033" rot="R180"/>
+<element name="LED+30" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="30.734" y="1.397"/>
+<element name="LED-30" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="30.734" y="10.033" rot="R180"/>
 <element name="LED30" library="SparkFun-LED" package="LED-1206" value="Blue" x="30.754" y="5.003" smashed="yes">
 <attribute name="NAME" x="28.584" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="29.981" y="3.66" size="0.4064" layer="27"/>
@@ -539,8 +549,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="26.055" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="25.674" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+31" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="25.146" y="1.397"/>
-<element name="LED-31" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="25.146" y="10.033" rot="R180"/>
+<element name="LED+31" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="25.146" y="1.397"/>
+<element name="LED-31" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="25.146" y="10.033" rot="R180"/>
 <element name="LED31" library="SparkFun-LED" package="LED-1206" value="Green" x="25.166" y="5.003" smashed="yes">
 <attribute name="NAME" x="22.996" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="24.393" y="3.66" size="0.4064" layer="27"/>
@@ -550,8 +560,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="20.467" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="20.086" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+32" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="19.558" y="1.397"/>
-<element name="LED-32" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="19.558" y="10.033" rot="R180"/>
+<element name="LED+32" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="19.558" y="1.397"/>
+<element name="LED-32" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="19.558" y="10.033" rot="R180"/>
 <element name="LED32" library="SparkFun-LED" package="LED-1206" value="Yellow" x="19.578" y="5.003" smashed="yes">
 <attribute name="NAME" x="17.408" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="18.805" y="3.66" size="0.4064" layer="27"/>
@@ -561,8 +571,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="9.291" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="8.91" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+33" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="8.382" y="1.397"/>
-<element name="LED-33" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="8.382" y="10.033" rot="R180"/>
+<element name="LED+33" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="8.382" y="1.397"/>
+<element name="LED-33" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="8.382" y="10.033" rot="R180"/>
 <element name="LED33" library="SparkFun-LED" package="LED-1206" value="Pink" x="8.402" y="5.003" smashed="yes">
 <attribute name="NAME" x="6.232" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="7.629" y="3.66" size="0.4064" layer="27"/>
@@ -572,8 +582,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="3.703" y="6.527" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="3.322" y="6.781" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED+34" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="2.794" y="1.397"/>
-<element name="LED-34" library="LilyPad-Wearables" package="PETAL-SMALL" value="SEWTAP6" x="2.794" y="10.033" rot="R180"/>
+<element name="LED+34" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="2.794" y="1.397"/>
+<element name="LED-34" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="2.794" y="10.033" rot="R180"/>
 <element name="LED34" library="SparkFun-LED" package="LED-1206" value="White" x="2.814" y="5.003" smashed="yes">
 <attribute name="NAME" x="0.644" y="6.673" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.041" y="3.66" size="0.4064" layer="27"/>
