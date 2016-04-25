@@ -1145,7 +1145,7 @@ Standard 8.5x11 US Letter frame</description>
 <text x="121.92" y="106.68" size="3.81" layer="97" font="vector"></text>
 <text x="207.264" y="52.578" size="2.54" layer="94" font="vector">L. Buechley </text>
 <text x="210.82" y="48.26" size="2.54" layer="94" font="vector">M. West</text>
-<text x="279.4" y="48.26" size="1.778" layer="94">v02</text>
+<text x="279.4" y="48.26" size="1.778" layer="94">v11</text>
 </plain>
 <instances>
 <instance part="LED+1" gate="G$1" x="96.52" y="149.86" rot="R180"/>
