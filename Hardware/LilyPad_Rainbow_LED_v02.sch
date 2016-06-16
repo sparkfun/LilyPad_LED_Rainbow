@@ -547,8 +547,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.1905" y1="-0.381" x2="0.1905" y2="0.381" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1146,6 +1144,10 @@ Standard 8.5x11 US Letter frame</description>
 <text x="207.264" y="52.578" size="2.54" layer="94" font="vector">L. Buechley </text>
 <text x="210.82" y="48.26" size="2.54" layer="94" font="vector">M. West</text>
 <text x="279.4" y="48.26" size="1.778" layer="94">v11</text>
+<text x="104.14" y="165.1" size="2.54" layer="97" font="vector">LilyPad Rainbow LED</text>
+<text x="182.88" y="152.4" size="2.54" layer="97" font="vector">LilyPad LEDs are designed
+to work with the LilyPad Coin
+Cell Battery Holder (CR2032)</text>
 </plain>
 <instances>
 <instance part="LED+1" gate="G$1" x="96.52" y="149.86" rot="R180"/>
@@ -1335,4 +1337,10 @@ Standard 8.5x11 US Letter frame</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
